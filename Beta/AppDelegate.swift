@@ -99,8 +99,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             do
             {
-                
-                
                 let results = try context.executeFetchRequest(request)
                 
                 if results[0].valueForKey("age") != nil
